@@ -19,5 +19,11 @@ for letter in word:
 	else:
 		# False? Consonant
 		pig = word[1:] + word[0] + "ay"
+	return pig 
+	
+	#Ask for word
+	
+word = input ("Please enter a word: ")
+print (piggy(word))
 		
 print(pig)
