@@ -56,7 +56,7 @@ for word in gettylist:
 	
 # Add the pigified word (and a space) to the new string.  
 	if len(word) > 0:
-		piggystring = piggystring + piggy(word) + " "
+		piggystring = piggystring + str(piggy(word)) + " "
 	#print(piggy(word))
 	
 	
